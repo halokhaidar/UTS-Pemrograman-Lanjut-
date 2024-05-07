@@ -16,8 +16,9 @@ public class BmiKalkulator {
         double bmi = hitungBMI(tinggiBadanM, beratBadan);
 
         System.out.println("BMI kamu adalah: " + bmi);
-
-        
+        if (bmi < 18.5)
+        {
+            System.out.println("Kamu kekurangan berat badan");
         }
         else if (bmi >= 18.5 && bmi <= 24.9)
         {
