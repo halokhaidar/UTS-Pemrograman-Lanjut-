@@ -38,3 +38,4 @@ public class BmiKalkulator {
         return beratBadan / (tinggiBadanM * tinggiBadanM);
     
 if (bmi < 17.7)
+test test
